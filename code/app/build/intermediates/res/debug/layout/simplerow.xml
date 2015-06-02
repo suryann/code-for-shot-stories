@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/rowTextView" 
+ android:layout_width="fill_parent" 
+ android:layout_height="wrap_content"
+ android:gravity="center"
+ android:padding="10dp"
+ android:background="@drawable/image"
+ android:textColor="#ffffffff"
+ android:textSize="24sp" >
+</TextView>
+<!-- From: file:/home/quikr/Dropbox/android%20market/General/Git/TamilShortStories/code/app/src/main/res/layout/simplerow.xml -->

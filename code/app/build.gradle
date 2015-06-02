@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "22.0.0"
+
+    defaultConfig {
+        applicationId "com.sooria.aadhavan"
+        minSdkVersion 8
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:appcompat-v7:20.0.0'
+    compile files('libs/GoogleAdMobAdsSdk-6.2.1.jar')
+    compile files('libs/startappadmobmediation-1.0.jar')
+    compile files('libs/StartAppInApp-2.4.1.jar')
+}

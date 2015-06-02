@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/rowTextView" 
+ android:layout_width="fill_parent" 
+ android:layout_height="wrap_content"
+ android:gravity="center"
+ android:padding="10dp"
+ android:background="@drawable/image"
+ android:textColor="#ffffffff"
+ android:textSize="24sp" >
+</TextView>
+<!-- From: file:/C:/Users/Dell/Dropbox/android%20market/Akilan/android%20studio%20code/code/app/src/main/res/layout/simplerow.xml -->
